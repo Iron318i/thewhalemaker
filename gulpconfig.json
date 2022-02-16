@@ -1,0 +1,26 @@
+{
+    "browserSyncOptions": {
+	"proxy": "http://html.gip.by/thewhalemaker",
+	"notify": false,
+	"files": [
+	    "./css/*.css",
+	    "./js/*.min.js",
+	    "./*.php",
+	    "./*.html"
+	]
+    },
+    "paths": {
+	"js": "./js",
+	"css": "./css",
+	"fonts": "./fonts",
+	"img": "./img",
+	"imgsrc": "./src/img",
+	"sass": "./sass",
+	"nbproject": "./nbproject",
+	"node": "./node_modules",
+	"composer": "./vendor",
+	"dev": "./src",
+	"dist": "./dist/",
+	"distprod": "./dist-product"
+    }
+}
