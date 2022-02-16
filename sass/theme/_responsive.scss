@@ -13,14 +13,50 @@ there.
 @media (min-width: 550px) {
 }
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 768px) {
+  h1 {
+    font-size: vw(81px);
+  }
+  h2 {
+    font-size: rem(41px);
+  }
+  h3 {
+    font-size: rem(27px);
+  }
+  h4 {
+    font-size: 3.0rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
 }
 /* Larger than desktop */
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
+  html {
+    font-size: 17px;
+  }
 }
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1400px) {
   html {
     font-size: 19px;
+  }
+  .container,
+  .container-lg {
+    --bs-gutter-x: 1.5rem;
+  }
+  .container {
+    max-width: 1307px;
+  }
+  .container-lg {
+    max-width: 80%;
   }
 }

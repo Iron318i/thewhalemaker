@@ -1,0 +1,26 @@
+.text-center {
+  text-align: center;
+}
+/*Header*/
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+/* Main Banner */
+.main-banner {
+  background: $blue url("../img/main-banner-bg.jpg") 50% / cover no-repeat;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  .h1 {
+    text-transform: uppercase;
+    span {
+      color: $cyan;
+    }
+  }
+}
