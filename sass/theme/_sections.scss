@@ -275,3 +275,17 @@
     }
   }
 }
+.bottom-cta {
+  text-align: center;
+  color: #fff;
+  min-height: 30rem;
+  display: flex;
+  align-items: center;
+  background: url(../img/bottom-cta.jpg) 50% / cover no-repeat;
+  img {
+    width: rem(155px);
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+}

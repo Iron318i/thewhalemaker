@@ -85,6 +85,12 @@
       width: 55%;
     }
   }
+  .bottom-cta {
+    min-height: rem(780px);
+    h3 {
+      font-size: rem(33px);
+    }
+  }
 }
 /* Larger than desktop */
 @media (min-width: 992px) {
@@ -155,7 +161,7 @@
 }
 @media (max-width: 479px) {
   .buy-ticket {
-    border-radius: 10px;
+    border-radius: 5px;
     .inner {
       flex-direction: column;
       strong {
