@@ -12,6 +12,14 @@
       flex: 0 0 27%;
     }
   }
+  .btn-info {
+    font-size: rem(23px);
+    line-height: rem(35px);
+    height: rem(66px);
+    span {
+      font-size: rem(28px);
+    }
+  }
 }
 /* Larger than tablet */
 @media (min-width: 768px) {
@@ -43,15 +51,6 @@
   h3 {
     font-size: rem(27px);
   }
-  h4 {
-    font-size: 3.0rem;
-  }
-  h5 {
-    font-size: 2.4rem;
-  }
-  h6 {
-    font-size: 1.5rem;
-  }
   .site-header {
     .col-logo {
       margin-left: 33.33333333%;
@@ -76,6 +75,14 @@
   .secrets {
     .section-title {
       margin-bottom: 5rem;
+    }
+  }
+  .event-box {
+    .col-md-6:first-child {
+      width: 45%;
+    }
+    .col-md-6:last-child {
+      width: 55%;
     }
   }
 }
@@ -110,7 +117,8 @@
   html {
     font-size: 18px;
   }
-  .why-attend {
+  .why-attend,
+  .event-details {
     padding-bottom: rem(130px);
     padding-top: rem(85px);
   }

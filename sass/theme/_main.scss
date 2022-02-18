@@ -83,16 +83,13 @@ h3 {
   line-height: 1.3;
 }
 h4 {
-  font-size: 1.5rem;
-  line-height: 1.35;
+  font-size: 1.2rem;
 }
 h5 {
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
 }
 h6 {
-  font-size: 1.3rem;
-  line-height: 1.6;
+  font-size: 1rem;
 }
 p {
   margin-top: 0;
@@ -120,7 +117,7 @@ a:hover {
   text-decoration: none;
   white-space: nowrap;
   background-color: $blue;
-  border-radius: 30px;
+  border-radius: rem(50px);
   border: 1px solid $blue;
   cursor: pointer;
   vertical-align: middle;
