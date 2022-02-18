@@ -107,11 +107,6 @@
   }
 }
 /* speakers */
-.speakers {
-  .row {
-    justify-content: center;
-  }
-}
 .speaker {
   width: 288px;
   margin-left: auto;
@@ -152,5 +147,36 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: .3rem;
+  }
+}
+.why-attend {
+  background: rgb(9, 83, 132);
+  background-image: radial-gradient(circle 3404px at 44.18% 51.26%, #095384 0%, #162a60 100%);
+  color: #fff;
+  .section-title {
+    color: #fff;
+  }
+}
+.white-box {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: rem(50px 20px 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  img {
+    width: rem(122px);
+    margin-bottom: 3rem;
+  }
+  p {
+    color: #1e344d;
+    font-size: rem(26px);
+    line-height: 1.23;
+    strong {
+      font-weight: 900;
+      color: $cyan;
+    }
   }
 }

@@ -12,8 +12,16 @@
     flex: 0 0 auto;
     width: 50%;
   }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
   .ta-md-right {
     text-align: right;
+  }
+  .my-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .py-70 {
     padding-top: 70px;
@@ -72,6 +80,9 @@
   .section-title {
     margin-bottom: 4rem;
   }
+  .white-box {
+    padding: rem(80px 50px 40px);
+  }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1280px) {
@@ -91,7 +102,7 @@
     max-width: 1307px;
   }
   .container-lg {
-    max-width: 85%;
+    max-width: 1615px;
   }
 }
 @media (max-width: 767px) {
