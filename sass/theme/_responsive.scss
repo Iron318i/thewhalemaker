@@ -1,11 +1,5 @@
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
 /* Larger than mobile */
 @media (min-width: 400px) {
 }
@@ -31,6 +25,15 @@ there.
   }
   h6 {
     font-size: 1.5rem;
+  }
+  .site-header {
+    .col-logo {
+      margin-left: 33.33333333%;
+    }
+    .col-logo, .col-btn {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
   }
 }
 /* Larger than desktop */
@@ -58,5 +61,10 @@ there.
   }
   .container-lg {
     max-width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .site-header .col-logo {
+    margin-bottom: 1rem;
   }
 }

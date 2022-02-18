@@ -48,7 +48,7 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 body {
   font-size: 1rem; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -102,133 +102,43 @@ a:hover {
 }
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.btn,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+.btn {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
+  height: rem(50px);
+  padding: rem(0 27px);
+  color: #fff;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
+  font-size: rem(18px);
+  font-weight: 400;
+  line-height: rem(50px);
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  background-color: $blue;
+  border-radius: 30px;
+  border: 1px solid $blue;
   cursor: pointer;
-  box-sizing: border-box;
+  vertical-align: middle;
 }
 .btn:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.btn:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+.btn:focus {
+  color: #fff;
+  background-color: darken($blue, 3%);
+  border-color: darken($blue, 3%);
   outline: 0;
 }
-.btn.btn-primary,
-button.btn-primary,
-input[type="submit"].btn-primary,
-input[type="reset"].btn-primary,
-input[type="button"].btn-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0;
+.btn.btn-info {
+  background-color: $cyan;
+  border-color: $cyan;
+  font-weight: 900;
+  font-size: rem(19px);
+  padding: rem(0 35px);
+  height: rem(53px);
+  line-height: rem(53px);
 }
-.btn.btn-primary:hover,
-button.btn-primary:hover,
-input[type="submit"].btn-primary:hover,
-input[type="reset"].btn-primary:hover,
-input[type="button"].btn-primary:hover,
-.btn.btn-primary:focus,
-button.btn-primary:focus,
-input[type="submit"].btn-primary:focus,
-input[type="reset"].btn-primary:focus,
-input[type="button"].btn-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB;
-}
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box;
-}
-/* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0;
-}
-label,
-legend {
-  display: block;
-  margin-bottom: .5rem;
-  font-weight: 600;
-}
-fieldset {
-  padding: 0;
-  border-width: 0;
-}
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline;
-}
-label > .label-body {
-  display: inline-block;
-  margin-left: .5rem;
-  font-weight: normal;
+.btn.btn-info:hover,
+.btn.btn-info:focus {
+  background-color: darken($cyan, 3%);
+  border-color: darken($cyan, 3%);
 }
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -286,10 +196,6 @@ td:last-child {
 }
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-button,
-.btn {
-  margin-bottom: 1rem;
-}
 input,
 textarea,
 select,

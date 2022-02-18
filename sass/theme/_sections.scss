@@ -9,6 +9,16 @@
   right: 0;
   width: 100%;
   padding: 20px 0;
+  text-align: center;
+  .row {
+    align-items: center;
+  }
+  .logo {
+    img {
+      width: rem(253px);
+      height: auto;
+    }
+  }
 }
 /* Main Banner */
 .main-banner {
