@@ -106,3 +106,51 @@
     line-height: 1;
   }
 }
+/* speakers */
+.speakers {
+  .row {
+    justify-content: center;
+  }
+}
+.speaker {
+  width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: #11699c;
+  margin-bottom: 1rem;
+  .content {
+    padding: .5rem 1rem 1rem;
+    font-weight: 300;
+    font-size: rem(16px);
+  }
+  .announced {
+    min-height: rem(117px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    font-size: rem(20px);
+    margin: 0;
+  }
+  .social {
+    list-style: none;
+    margin: 0;
+    font-size: rem(20px);
+    li {
+      display: inline-block;
+      margin: 0;
+      margin-left: 5px;
+    }
+    a {
+      color: #fff;
+    }
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+  }
+}

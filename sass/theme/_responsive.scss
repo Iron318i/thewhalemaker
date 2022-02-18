@@ -69,6 +69,9 @@
   html {
     font-size: 17px;
   }
+  .section-title {
+    margin-bottom: 4rem;
+  }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1280px) {
@@ -88,7 +91,7 @@
     max-width: 1307px;
   }
   .container-lg {
-    max-width: 80%;
+    max-width: 85%;
   }
 }
 @media (max-width: 767px) {
