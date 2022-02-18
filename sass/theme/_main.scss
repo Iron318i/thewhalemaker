@@ -70,7 +70,7 @@ h1 {
   line-height: 1.1;
 }
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.25;
 }
 h3 {
@@ -118,6 +118,14 @@ a:hover {
   border: 1px solid $blue;
   cursor: pointer;
   vertical-align: middle;
+  .icon {
+    width: 1em;
+    height: 1em;
+    color: #fff;
+    position: relative;
+    top: rem(3px);
+    margin-left: .5rem;
+  }
 }
 .btn:hover,
 .btn:focus {
@@ -220,4 +228,7 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1;
+}
+.hidden {
+  display: none;
 }
