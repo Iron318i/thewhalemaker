@@ -74,7 +74,7 @@ h2 {
   line-height: 1.25;
 }
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.3;
 }
 h4 {
@@ -95,10 +95,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB;
+  color: $blue;
+  text-decoration: none;
 }
 a:hover {
-  color: #0FA0CE;
+  color: darken($blue, 3%);
 }
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -219,7 +220,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -229,6 +230,24 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .hidden {
   display: none;
+}
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.text-cyan {
+  color: $cyan;
+}
+.text-blue {
+  color: $dark-blue;
+}
+/* Paddings
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.py-70 {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }

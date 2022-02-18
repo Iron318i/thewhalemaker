@@ -8,6 +8,17 @@
 }
 /* Larger than tablet */
 @media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .ta-md-right {
+    text-align: right;
+  }
+  .py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   h1 {
     font-size: vw(81px);
   }
@@ -47,6 +58,11 @@
       margin-bottom: rem(45px);
     }
   }
+  .secrets {
+    .section-title {
+      margin-bottom: 5rem;
+    }
+  }
 }
 /* Larger than desktop */
 @media (min-width: 992px) {
@@ -78,6 +94,16 @@
 @media (max-width: 767px) {
   .site-header .col-logo {
     margin-bottom: 1rem;
+  }
+  .sm-hide {
+    display: none;
+  }
+  .secrets {
+    text-align: center;
+    .col-md-6 > div {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 @media (max-width: 479px) {
