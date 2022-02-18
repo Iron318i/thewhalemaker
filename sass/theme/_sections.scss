@@ -289,3 +289,35 @@
     text-transform: uppercase;
   }
 }
+.site-footer {
+  background-color: #13376c;
+  color: #fff;
+  padding: 1.5rem 0;
+  .logo {
+    display: inline-block;
+    width: rem(126px);
+  }
+  .row {
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin: 0;
+      display: inline-block;
+      margin-left: 10px;
+    }
+    a {
+      color: #fff;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+  .copyright {
+    font-size: rem(16px);
+  }
+}

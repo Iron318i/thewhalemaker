@@ -158,6 +158,18 @@
       margin-right: auto;
     }
   }
+  .site-footer {
+    .row {
+      flex-direction: column;
+    }
+    .copyright {
+      margin: 1rem 0;
+      text-align: center;
+    }
+    ul a {
+      font-size: 30px;
+    }
+  }
 }
 @media (max-width: 479px) {
   .buy-ticket {
