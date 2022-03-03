@@ -5,13 +5,6 @@
 }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 480px) {
-  .step-box {
-    padding: rem(45px 55px 35px);
-    .num {
-      font-size: rem(106px);
-      flex: 0 0 27%;
-    }
-  }
   .btn-info {
     font-size: rem(23px);
     line-height: rem(35px);
@@ -105,17 +98,7 @@
     margin-bottom: 4rem;
   }
   .white-box {
-    padding: rem(80px 50px 40px);
-  }
-  .step-box {
-    &.second {
-      .bottom {
-        margin-left: 12%;
-      }
-    }
-    .top {
-      min-height: rem(121.5px);
-    }
+    padding: rem(80px 45px 40px);
   }
 }
 /* Larger than Desktop HD */

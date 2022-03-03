@@ -204,37 +204,6 @@ ul.styled {
     }
   }
 }
-.step-box {
-  border: 2px dashed white;
-  border-radius: 5px;
-  padding: rem(30px 30px 35px);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  .top {
-    margin-bottom: 1rem;
-  }
-  .bottom {
-    display: flex;
-  }
-  .num {
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1;
-    flex: 0 0 18%;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      padding-left: rem(45px);
-      background: url("data:image/svg+xml,%3Csvg height='32' id='check' viewBox='0 0 32 32' width='32' xmlns='http://www.w3.org/2000/svg' fill='%2300c4e1'%3E%3Cpath d='M1 14 L5 10 L13 18 L27 4 L31 8 L13 26 z'/%3E%3C/svg%3E") center left / 1.5rem no-repeat;
-      margin-bottom: .5rem;
-      font-weight: 300;
-    }
-  }
-}
 .event-details {
   background: url(../img/event-details.jpg) center top / cover no-repeat;
 }
