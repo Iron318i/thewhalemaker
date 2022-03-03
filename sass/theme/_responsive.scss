@@ -126,6 +126,11 @@
   .container-lg {
     max-width: 1615px;
   }
+  .bottom-cta {
+    h2 {
+      font-size: rem(50px);
+    }
+  }
 }
 @media (max-width: 767px) {
   .site-header .col-logo {
